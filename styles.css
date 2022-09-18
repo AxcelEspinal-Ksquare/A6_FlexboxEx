@@ -43,7 +43,7 @@ a {
 }
 
 .float {
-    display: flex
+    display: flex;
     flex-flow: column wrap;
     border: 1px solid white;
     margin-bottom: 30px;
