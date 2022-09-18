@@ -1,0 +1,84 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex; 
+    background-color: #e3e7eb;
+    width: 100vw;
+    height: 100vh;
+}
+
+.jumbo {
+    display: flex; 
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: row;
+    width: 80vw;
+    height: 80vh;
+}
+
+.child {
+    flex-direction: column;
+    display:flex;
+    flex: 1;
+    padding: 0 10vw;
+
+}
+.login {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   background-image: url("https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+   background-color: #d0bea7;
+   background-size: cover;
+   color: white;
+   border-radius:0 5px 5px 0;
+}
+
+.float {
+
+    border: 1px solid white;
+    margin: auto;
+}
+
+.space {
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    margin: 10px 0;
+}
+
+button {
+    color: white;
+    background-color: #101828;
+    border-radius: 5px;
+}
+.btn {
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+
+.fw {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box; /* add this */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.sgn {
+    text-align: center;
+}
