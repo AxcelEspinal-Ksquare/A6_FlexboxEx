@@ -11,6 +11,7 @@ a {
 }
 
 .jumbo {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex; 
     margin: auto;
     background-color: white;
@@ -28,13 +29,11 @@ a {
 
 }
 .login {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
 }
 
 .review {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
    background-image: url("https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
    background-color: #d0bea7;
@@ -44,9 +43,13 @@ a {
 }
 
 .float {
-
+    display: flex
+    flex-flow: column wrap;
     border: 1px solid white;
-    margin: auto;
+    margin-bottom: 30px;
+    backdrop-filter: blur(20px);
+    padding: 15px;
+
 }
 
 .space {
@@ -81,4 +84,9 @@ button {
 
 .sgn {
     text-align: center;
+}
+
+.h2 {
+    font-size: 1.5em;
+    font-weight: bold;
 }
